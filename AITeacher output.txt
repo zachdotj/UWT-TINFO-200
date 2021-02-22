@@ -1,0 +1,76 @@
+****************************
+ Welcome to the AI Teacher!
+ This program will help you practice your multiplication.
+ When satisfied with number of repetitions, feel free to exit.
+What is 6 times 4?
+24
+Very good!
+What is 7 times 7?
+49
+Very good!
+What is 8 times 4?
+31
+No. Please try again.
+32
+Very good!
+What is 5 times 4?
+20
+Very good!
+What is 8 times 4?
+32
+Very good!
+What is 6 times 4?
+25
+No. Please try again.
+25
+No. Please try again.
+24
+Very good!
+What is 5 times 8?
+40
+Very good!
+What is 1 times 4?
+4
+Very good!
+What is 6 times 6?
+
+
+
+****************************
+ Welcome to the AI Teacher!
+ This program will help you practice your multiplication.
+ When satisfied with number of repetitions, feel free to exit.
+What is 4 times 8?
+32
+Very good!
+What is 5 times 5?
+25
+Very good!
+What is 2 times 8?
+16
+Very good!
+What is 4 times 4?
+16
+Very good!
+What is 8 times 3?
+24
+Very good!
+What is 1 times 8?
+8
+Very good!
+What is 2 times 2?
+4
+Very good!
+What is 3 times 7?
+20
+No. Please try again.
+22
+No. Please try again.
+21
+Very good!
+What is 7 times 3?
+21
+Very good!
+What is 1 times 1?
+1
+Very good!
