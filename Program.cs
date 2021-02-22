@@ -1,79 +1,67 @@
 ﻿//////////////////////////////////////////////////////////////////////
 // Date             Developer           Description
-// 2021-02-04       zachj              --creation of the ai teacher main class
+// 2021-02-04       zachj              --creation of the guess the number main class
 // 2021-02-04       zachj              --final edits to ensure program is in completed state
 
 using System;
 
-namespace AITeacher
+namespace GuessTheNumber
 {
     class Program
     {
-        // this program will help test the user on elementary school-level multiplication
-        // the program generates two one-digit numbers and multiplies them, prompting user for correct answer
-
-        // declare all needed variables
-        private static Random random = new Random();
-        private static int randNum1 = 0;
-        private static int randNum2 = 0;
-        private static int multResult = 0;
-        private static bool repeatQuestion = false;
-
-        // determine limits of the random numbers
-        private static int RandomNum (int min, int max)
-        {
-            return random.Next(min, max);
-        }
-
-        // generate the question
-        private static void CreateQuestion(bool repeatQuestion)
-        {
-            if (!repeatQuestion)
-            {
-                PrintQuestion();
-            }
-        }
-
-        // create numbers and print the question 
-        private static void PrintQuestion()
-        {
-            randNum1 = RandomNum(1, 9);
-            randNum2 = RandomNum(1, 9);
-
-            Console.WriteLine($"What is {randNum1} times {randNum2}?");
-        }
-        
-        // gather input and assess correctness
-        // program will continue to loop until exited 
+        // this program plays the game "Guess The Number"
+        // user must correctly guess the number to win
+        // after winning, user can choose to play again if desired
         static void Main(string[] args)
         {
-            // welcome message and explanation of program
-            Console.WriteLine($"****************************" +
-                $"\n Welcome to the AI Teacher! " +
-                $"\n This program will help you practice your multiplication." +
-                $"\n When satisfied with number of repetitions, feel free to exit.");
+            // Welcome message and explanation of program
+            Console.WriteLine($"**************************" +
+                              $"\nWelcome to Guess The Number!" +
+                              $"\nThe program has randomly generated a number between 1 and 1000." +
+                              $"\nGuess the number to win!\n");
 
-            // methods called in order to execute program
-            while (true)
+            // condition to start game
+            bool contPlay = true;
+
+            // main loop of the game
+            while (contPlay == true)
             {
-                int userInput = 0;
-                CreateQuestion(repeatQuestion);
-                try
-                {
-                    userInput = Convert.ToInt32(Console.ReadLine());
-                }
-                catch { }
-                multResult = randNum1 * randNum2;
+                // create secret number
+                Console.WriteLine("Secret number has been selected.");
+                Random rand = new Random();
+                int secretNum = rand.Next(1, 999);
 
-                if (userInput == Program.multResult)
+                // input section -- input guesses from user
+                Console.WriteLine("Enter a number between 1 and 999: ");
+                int guess = Convert.ToInt32(Console.ReadLine());
+
+                // feedback loop for incorrect guesses from user
+                while (guess != secretNum)
                 {
-                    Console.WriteLine("Very good!");
-                    repeatQuestion = false;
+                    if (guess < secretNum)
+                    {
+                        Console.WriteLine("Too low. Try again.");
+                    }
+                    else if (guess > secretNum)
+                    {
+                        Console.WriteLine("Too high. Try again.");
+                    }
+                    Console.WriteLine("Guess another number: ");
+                    guess = Convert.ToInt32(Console.ReadLine());
+                }
+                // correct guess has been made
+                Console.WriteLine("\nCongratulations. You have guessed the number!\n");
+
+                // prompt user to play again
+                Console.WriteLine("\nWould you like to play again? (y/n): ");
+                string playAgain = Console.ReadLine();
+                if (playAgain == "y")
+                {
+                    contPlay = true;
                 }
                 else
                 {
-                    Console.WriteLine("No. Please try again.");
-                    repeatQuestion = true;
+                    contPlay = false;
                 }
             }
         }

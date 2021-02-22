@@ -1,0 +1,25 @@
+***********************************
+Welcome to the Bar Chart app!
+This application takes 3 inputs from 1-30
+and prints out the corresponding number of asterisks!
+Please input the first number:
+3
+***
+Please input the second number:
+5
+*****
+Please input the third number:
+8
+********
+Press any key to continue . . .
+
+***********************************
+Welcome to the Bar Chart app!
+This application takes 3 inputs from 1-30
+and prints out the corresponding number of asterisks!
+Please input the first number:
+13
+*************
+Please input the second number:
+21
+*********************

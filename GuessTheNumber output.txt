@@ -1,0 +1,141 @@
+Test 1
+*************************
+Welcome to Guess The Number!
+The program has randomly generated a number between 1 and 1000.
+Guess the number to win!
+
+Secret number has been selected.
+Enter a number between 1 and 999:
+500
+Too high. Try again.
+Guess another number:
+400
+Too high. Try again.
+Guess another number:
+300
+Too low. Try again.
+Guess another number:
+350
+Too low. Try again.
+Guess another number:
+375
+Too low. Try again.
+Guess another number:
+380
+Too low. Try again.
+Guess another number:
+390
+Too low. Try again.
+Guess another number:
+395
+Too low. Try again.
+Guess another number:
+399
+Too high. Try again.
+Guess another number:
+397
+Too low. Try again.
+Guess another number:
+398
+
+Congratulations. You have guessed the number!
+
+
+Would you like to play again? (y/n):
+
+
+Test 2
+**************************
+Welcome to Guess The Number!
+The program has randomly generated a number between 1 and 1000.
+Guess the number to win!
+
+Secret number has been selected.
+Enter a number between 1 and 999:
+500
+Too low. Try again.
+Guess another number:
+750
+Too low. Try again.
+Guess another number:
+800
+Too low. Try again.
+Guess another number:
+900
+Too low. Try again.
+Guess another number:
+950
+Too high. Try again.
+Guess another number:
+930
+Too high. Try again.
+Guess another number:
+925
+
+Congratulations. You have guessed the number!
+
+
+Would you like to play again? (y/n):
+
+Test 3 (with replay)
+**************************
+Welcome to Guess The Number!
+The program has randomly generated a number between 1 and 1000.
+Guess the number to win!
+
+Secret number has been selected.
+Enter a number between 1 and 999:
+500
+Too low. Try again.
+Guess another number:
+750
+Too low. Try again.
+Guess another number:
+900
+Too high. Try again.
+Guess another number:
+800
+Too low. Try again.
+Guess another number:
+850
+Too high. Try again.
+Guess another number:
+825
+Too low. Try again.
+Guess another number:
+830
+Too low. Try again.
+Guess another number:
+840
+Too high. Try again.
+Guess another number:
+835
+Too low. Try again.
+Guess another number:
+837
+
+Congratulations. You have guessed the number!
+
+
+Would you like to play again? (y/n):
+y
+Secret number has been selected.
+Enter a number between 1 and 999:
+500
+Too low. Try again.
+Guess another number:
+800
+Too low. Try again.
+Guess another number:
+900
+Too low. Try again.
+Guess another number:
+950
+Too low. Try again.
+Guess another number:
+975
+
+Congratulations. You have guessed the number!
+
+
+Would you like to play again? (y/n):

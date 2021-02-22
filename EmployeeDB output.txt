@@ -1,0 +1,15 @@
+*******************************************
+ This program displays an employee's full name and monthly salary,
+
+ as well as their annual salary, and annual salary after a 10% raise.
+
+Employee #1's information: Zach Johnson 1000
+Employee #2's information: Drew Johnson 1500
+Employee #3's information: Rachel Johnson 2000
+Here is Zach's annual salary 12000
+Here is Drew's annual salary 18000
+Here is Rachel's annual salary 24000
+Here is Zach's annual salary after a 10% raise 12000
+Here is Drew's annual salary after a 10% raise 18000
+Here is Rachel's annual salary after a 10% raise 24000
+Press any key to continue . . .
